@@ -4,6 +4,13 @@
 - Audio dataset from ESC-50.
 
 # File Structure
+Documentation for explaining our implementation method
+```
+1. Data Preparation.pdf
+explain the method for animal sound extraction and the features extracted
+
+2. 
+```
 Code for animal sound extraction and features extraction
 ```
 1. AnimalDetect.py
@@ -63,4 +70,3 @@ python3 -m venv sdsc2102-asc
 sdsc2102-asc\Scripts\activate.bat
 pip install -r requirements.txt
 ```
-
