@@ -27,7 +27,7 @@ extracted features for all animals
 Code for animal sound classification modeling
 ```
 1. asc_ML.ipynb
-code for modeling tasks
+code for following modeling tasks
  - source-to-target mapping
  - cross validation
  - logistic regression training
