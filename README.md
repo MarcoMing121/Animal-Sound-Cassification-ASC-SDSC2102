@@ -6,10 +6,11 @@
 # File Structure
 Documentation for explaining our implementation method
 ```
-1. Data Preparation.pdf
+1. Data Preparation doc v2.pdf
 explain the method for animal sound extraction and the features extracted
 
-2. 
+2. 2102 model doc.pdf
+explain modeling tasks by Marco.
 ```
 Code for animal sound extraction and features extraction
 ```
@@ -34,7 +35,7 @@ extracted features for all animals
 Code for animal sound classification modeling
 ```
 1. asc_ML.ipynb
-code for following modeling tasks
+code for following modeling tasks by Marco
  - source-to-target mapping
  - cross validation
  - logistic regression training
