@@ -50,10 +50,11 @@ Step 2. Preparing ESC-50 raw audio dataset with DVC.
 ```
 cd Animal-Sound-Cassification-ASC-SDSC2102
 ```
-- Pull only the audio file from ESC-50's repositories: 
+- Pull only the audio and meta from ESC-50's repositories: 
 ```
 git fetch https://github.com/karolpiczak/ESC-50.git
 git checkout FETCH_HEAD -- audio
+git checkout FETCH_HEAD -- meta
 ```
 
 Step 3. Create a virtual environment and install the dependencies.
