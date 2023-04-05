@@ -41,7 +41,7 @@ code for modeling tasks
 
 Step 1. Clone or download this repository and set it as the working directory.
 - Open the working directory with terminal and run: 
-
+```
 git clone https://github.com/YeungYuiii/Animal-Sound-Cassification-SDSC2102-.git
 ```
 
