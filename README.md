@@ -23,6 +23,17 @@ code for extracting features and save them into csv file
 
 6. animal_features.csv
 extracted features for all animals
+```
+Code for animal sound classification modeling
+```
+1. asc_ML.ipynb
+code for modeling tasks
+ - source-to-target mapping
+ - cross validation
+ - logistic regression training
+ - decision tree training
+ - model evaluation
+```
 
 # Setup
 
@@ -30,7 +41,7 @@ extracted features for all animals
 
 Step 1. Clone or download this repository and set it as the working directory.
 - Open the working directory with terminal and run: 
-```
+
 git clone https://github.com/YeungYuiii/Animal-Sound-Cassification-SDSC2102-.git
 ```
 
