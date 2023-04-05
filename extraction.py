@@ -37,8 +37,9 @@ df = pd.DataFrame.from_dict({
     'mfcc5':[]
     })
 
-audio_dir = 'Audio_processing/Animal/esc50-dataset/dataset/'
-metadata_file = 'Audio_processing/Animal/esc50-dataset/esc50.csv'
+# Load audio files
+audio_dir = 'audio/'
+metadata_file = 'meta/esc50.csv'
 animal_labels = ['dog', 'cat', 'rooster', 'hen', 'pig', 'frog', 'cow', 'crow']
 metadata = pd.read_csv(metadata_file)
 animal_metadata = metadata[metadata['category'].isin(animal_labels)]
@@ -46,6 +47,7 @@ filename = animal_metadata['filename'].tolist()
 animal_files = pd.DataFrame({'animal': animal_metadata['category'], 'file': filename})
 animal_files.reset_index(drop=True, inplace=True)
 
+# Extract features
 for i in range(0, len(animal_files)):
     x, sr = librosa.load(audio_dir + animal_files.iloc[i]['file'])
     reduced_noise = nr.reduce_noise(y=x, sr=sr)
@@ -59,6 +61,7 @@ for i in range(0, len(animal_files)):
         print(features)
         df.loc[len(df)] = features
 
+# Save features to csv
 df.to_csv('animal_features.csv', index=False)
 
 
