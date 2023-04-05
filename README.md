@@ -3,6 +3,27 @@
 - Machine Leraning for animal souind classification using logistic regression and decision tree model
 - Audio dataset from ESC-50.
 
+# File Structure
+Code for animal sound extraction and features extraction
+```
+1. AnimalDetect.py
+module for animal sound extraction and features extraction
+
+2. data-visualization.ipynb
+audio signal and spectrogram visualiztion
+
+3. detection-clips.ipynb
+prototype of animal sound clipping
+
+4. detection-cut.ipynb
+prototype of second cutting with UCL and LCL
+
+5. extraction.py
+code for extracting features and save them into csv file
+
+6. animal_features.csv
+extracted features for all animals
+
 # Setup
 
 > This setup instruction is follow my own implementation for preparing the environment for this project.
