@@ -1,8 +1,8 @@
 # Animal Sound Classifier
 > Course Group Project | SDSC2102 - Statistical Methods and Data Analysis <br />
 > Group members: Max, Marco, Ivan, Noddy from City University of Hong Kong
-- data-oriented audio analysis.
-- data preparation and engineering for audio signal dataset.
+- Data-oriented audio analysis.
+- Data preparation and engineering for audio signal dataset.
 - Machine Leraning for animal souind classification using logistic regression and decision tree model.
 - Audio dataset from ESC-50.
 
